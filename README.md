@@ -4,6 +4,12 @@ Musicwell is a music player and organiser, simple or fully customisable, with ly
 Chromecast and Sonos. It plays your own music collection on Linux (MP3, FLAC, Ogg, Opus, M4A/AAC,
 WAV and more), with album art, artist photos, synced lyrics and a visualizer.
 
+<img width="1920" height="1080" alt="Albums" src="https://github.com/user-attachments/assets/c9dbe70d-e9ab-429a-b1da-4599444c1925" />
+<img width="1920" height="1080" alt="Artists" src="https://github.com/user-attachments/assets/0a7a3d36-bbe9-458f-84de-64cea210c3db" />
+<img width="1920" height="1080" alt="Lyrics" src="https://github.com/user-attachments/assets/0af8c1fa-4cf2-4ed1-b12e-6ec990beba3a" />
+<img width="1920" height="1080" alt="Unlocked" src="https://github.com/user-attachments/assets/1aa2639c-04bc-408e-b758-5168c7a40045" />
+
+
 Play it straight away: add your music folder and everything is there. Or unlock the window and put
 the items where you want them — the album cover, the lyrics, the playback buttons, the seek bar,
 the up next list — in the side panels, the panel across the top, the play bar or the top bar, at
