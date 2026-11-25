@@ -1,18 +1,37 @@
 # Musicwell
 
-A simple or fully customisable music player for Linux, for those who either want a straightforward player or those who like to fully arrange and customise, with full control over layouts and music management.
+Musicwell is a music player and organiser, simple or fully customisable, with lyrics, radio,
+Chromecast and Sonos. It plays your own music collection on Linux (MP3, FLAC, Ogg, Opus, M4A/AAC,
+WAV and more), with album art, artist photos, synced lyrics and a visualizer.
 
-*Musicwell used to be called Listenwell (and before that, Tunewell).* The first time Musicwell starts it
-brings everything over from Listenwell (or Tunewell): settings, your library with its ratings, play counts,
-history and playlists, radio favourites, your layouts and the downloaded covers, photos, lyrics and waveforms.
-Saved `.listenwell-eq` / `.tunewell-eq` presets and `.listenwell-layout` / `.tunewell-layout` files still
-import.
+Play it straight away: add your music folder and everything is there. Or unlock the window and put
+the items where you want them — the album cover, the lyrics, the playback buttons, the seek bar,
+the up next list — in the side panels, the panel across the top, the play bar or the top bar, at
+any size. Switch between ready-made layouts (song list, albums, artists, vinyl record and more) or
+save your own.
 
-Press **F1** (or *About Musicwell* in Settings or the tray menu) for credits and licences, and system details to copy into a bug report — including any
-recent problems (also kept in `~/.cache/musicwell/errors.log`, on Windows
-`%LOCALAPPDATA%\Musicwell\Cache\errors.log`) and, for the selected song, its year,
-original year, decade and date tags. See **When something goes wrong** below for the log. The first release
-was 1.0; each update adds one to the second number.
+**Your music library**
+- Song list with a column browser by artist, album, genre and year, like a classic jukebox
+- Artist pages and all your albums as covers
+- Ratings, likes, play counts and listening stats
+- Smart search (for example artist=bowie year>1990) and custom columns from any tag
+- Playlists, a play queue, shuffle and repeat
+
+**Sound**
+- 10- or 15-band equalizer with presets, gapless playback, crossfades
+- Volume levelling with ReplayGain
+- Media keys, the tray icon and your desktop's media controls (MPRIS)
+
+**More than your own music**
+- Internet radio with thousands of stations and what's playing now
+- Lyrics, artist biographies, album covers and artist photos looked up for you
+- Discover music like the song playing, and free music to stream
+- Cast to Chromecast and play on Sonos speakers
+
+Music on another drive (under /media or /mnt)? Allow it once with:
+sudo snap connect musicwell:removable-media
+
+Free software under the GPL (version 3 or later).
 
 ## Get it
 
