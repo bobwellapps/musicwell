@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+build/
+dist/
+*.egg-info/
+*.snap
+*.AppImage
+*.AppImage.part*
+parts/
+stage/
+prime/
+snap/
+snap-tools/
+publish-to-github.sh
+RELEASE-NOTES-*.md

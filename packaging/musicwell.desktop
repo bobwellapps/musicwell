@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=Musicwell
+GenericName=Music Player
+Comment=Play and organise your music library
+Exec=musicwell %F
+Icon=musicwell
+Terminal=false
+Categories=AudioVideo;Audio;Player;Qt;
+Keywords=music;audio;player;library;playlist;radio;lyrics;
+MimeType=inode/directory;audio/mpeg;audio/flac;audio/x-flac;audio/ogg;audio/mp4;audio/x-wav;audio/x-m4a;
+StartupWMClass=musicwell

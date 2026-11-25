@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>io.github.bobwellapps.musicwell</id>
+  <name>Musicwell</name>
+  <summary>A simple or fully customisable music player</summary>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+  <developer id="io.github.bobwellapps">
+    <name>bobwellapps</name>
+  </developer>
+  <launchable type="desktop-id">musicwell.desktop</launchable>
+  <description>
+    <p>Musicwell is a music player for your own music library — as simple or as arranged as you like.</p>
+    <p>Add your music folder and everything is there, with covers, artist photos, lyrics and a visualizer. Or
+      unlock the window and put every item where you want it, at any size, and save your own layouts.</p>
+    <ul>
+      <li>Library with a column browser, artist pages, all albums as covers, ratings and stats</li>
+      <li>Lyrics, artist information, covers and photos looked up for you</li>
+      <li>Equalizer, gapless playback, fades and volume levelling</li>
+      <li>Internet radio, and Discover music like the song playing</li>
+      <li>Cast to Chromecast and play on Sonos speakers</li>
+    </ul>
+  </description>
+  <url type="homepage">https://github.com/bobwellapps/musicwell</url>
+  <url type="bugtracker">https://github.com/bobwellapps/musicwell/issues</url>
+  <categories>
+    <category>AudioVideo</category>
+    <category>Audio</category>
+    <category>Player</category>
+  </categories>
+  <content_rating type="oars-1.1"/>
+  <releases>
+    <release version="1.0" date="2026-11-25"/>
+  </releases>
+</component>

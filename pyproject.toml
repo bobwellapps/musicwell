@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "musicwell"
+dynamic = ["version"]
+description = "A simple or fully customisable music player for Linux"
+readme = "README.md"
+license = "GPL-3.0-or-later"
+authors = [{ name = "bobwellapps" }]
+requires-python = ">=3.10"
+dependencies = [
+    "PySide6-Essentials>=6.8",
+    "PySide6-Addons>=6.8",
+    "mutagen",
+    "numpy",
+    "pychromecast",
+    "soco",
+    "dbus-next; sys_platform == 'linux'",
+    "certifi",
+]
+
+[project.urls]
+Homepage = "https://github.com/bobwellapps/musicwell"
+"Snap Store" = "https://snapcraft.io/musicwell"
+
+[project.gui-scripts]
+musicwell = "musicwell.app:main"
+
+[tool.setuptools]
+packages = ["musicwell"]
+
+[tool.setuptools.package-data]
+musicwell = ["icon.png", "icon.ico"]
+
+[tool.setuptools.dynamic]
+version = { attr = "musicwell.__version__" }
